@@ -37,16 +37,10 @@ Wavve Popular Episode crawling.
 
 ### 3. Installation
 
-"""python
-
     pip install WavveParser
         
-"""
-
 -------
 ### 4. Wavve_parser
-
-"""python
 
     import pandas as pd
     import numpy as np
@@ -131,5 +125,3 @@ Wavve Popular Episode crawling.
                 })
 
             return pd.DataFrame(wavve_list), categories
-
-"""
